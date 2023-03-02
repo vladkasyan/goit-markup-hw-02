@@ -83,6 +83,7 @@ body {
   background-color: var(--title-color);
 }
 .btn-main {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -104,6 +105,7 @@ body {
   list-style-type: none;
 }
 .features-title {
+  color: var(--title-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,7 +153,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-color-text);
@@ -183,18 +185,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--actient-color-);
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
-}
-.btn-all {
-}
-.btn-web-site {
-}
-.btn-app {
-}
-.btn-design {
-}
-.btn-marketing {
 }
 .btn:hover {
   background: var(--hover-color);
