@@ -37,7 +37,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   color: var(--actient-color-);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -68,8 +68,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color-text);
 }
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--hover-color);
 }
 /* main */
@@ -155,13 +155,13 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--actient-color-);
 }
 .footer-logo.footer-second-color-logo {
-  color: var(--footer-color-text);
+  color: var(--footer-color-logo);
 }
 .footer-text {
   font-size: 16px;
